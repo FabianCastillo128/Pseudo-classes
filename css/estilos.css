@@ -1,0 +1,475 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+}
+nav{
+    justify-content: center;
+    background-color: #2b2828;
+    color: white;
+}
+.cverde{
+    background-color: greenyellow;
+    height: 20rem;
+}
+.cceleste{
+    background-color: aqua;
+    height: 20rem;
+}
+.cazul{
+    background-color: blue;
+    height: 20rem;
+}
+.clila{
+    background-color: rgb(233, 94, 233);
+    height: 20rem;
+}
+.cmarron{
+    background-color: rgb(190, 111, 80);
+    height: 20rem;
+}
+.cnaranja{
+    background-color: rgb(247, 113, 4);
+    height: 20rem;
+}
+.cverde2{
+    background-color: rgb(97, 179, 87);
+    height: 20rem;
+}
+.ccian{
+    background-color: rgb(94, 182, 233);
+    height: 20rem;
+}
+.nueve{
+    background-color: rgb(252, 122, 122);
+    height: 20rem;
+}
+.diez{
+    background-color: rgb(90, 49, 206);
+    height: 20rem;
+}
+.once{
+    background-color: rgb(243, 217, 231);
+    height: 20rem;
+}
+.doce{
+    background-color: rgb(238, 241, 60);
+    height: 20rem;
+}
+.trece{
+    background-color: greenyellow;
+    height: 20rem;
+}
+.catorce{
+    background-color: aqua;
+    height: 20rem;
+}
+.quince{
+    background-color: blue;
+    height: 20rem;
+}
+.dieciseis{
+    background-color: rgb(233, 94, 233);
+    height: 20rem;
+}
+.diecisiete{
+    background-color: rgb(190, 111, 80);
+    height: 20rem;
+}
+.dieciocho{
+    background-color: rgb(247, 113, 4);
+    height: 20rem;
+}
+.diecinueve{
+    background-color: rgb(97, 179, 87);
+    height: 20rem;
+}
+.veinte{
+    background-color: rgb(94, 182, 233);
+    height: 20rem;
+}
+.veintiuno{
+    background-color: rgb(252, 122, 122);
+    height: 20rem;
+}
+.veintidos{
+    background-color: rgb(90, 49, 206);
+    height: 20rem;
+}
+.veintitres{
+    background-color: rgb(243, 217, 231);
+    height: 20rem;
+}
+.veinticuatro{
+    background-color: rgb(238, 241, 60);
+    height: 20rem;
+}
+.veinticinco{
+    background-color: greenyellow;
+    height: 20rem;
+}
+.veintiseis{
+    background-color: aqua;
+    height: 20rem;
+}
+.veintisiete{
+    background-color: blue;
+    height: 20rem;
+}
+.veintiocho{
+    background-color: rgb(233, 94, 233);
+    height: 20rem;
+}
+.veintinueve{
+    background-color: rgb(190, 111, 80);
+    height: 20rem;
+}
+.treinta{
+    background-color: rgb(247, 113, 4);
+    height: 20rem;
+}
+.treintauno{
+    background-color: rgb(97, 179, 87);
+    height: 20rem;
+}
+.treintados{
+    background-color: rgb(94, 182, 233);
+    height: 20rem;
+}
+.treintatres{
+    background-color: rgb(252, 122, 122);
+    height: 20rem;
+}
+.treintacuatro{
+    background-color: rgb(90, 49, 206);
+    height: 20rem;
+}
+.treintacinco{
+    background-color: rgb(243, 217, 231);
+    height: 20rem;
+}
+.treintaseis{
+    background-color: rgb(238, 241, 60);
+    height: 20rem;
+}
+.treintasiete{
+    background-color: greenyellow;
+    height: 26rem;
+}
+.treintaocho{
+    background-color: aqua;
+    height: 26rem;
+}
+.treintanueve{
+    background-color: blue;
+    height: 26rem;
+}
+div.cverde:hover{
+    background-color: rgb(110, 110, 110);
+    color: white;
+}
+div.cceleste a:active{
+    color: red;
+}
+div.cazul 
+select {
+  margin: 8px;
+}
+/*:checked*/
+
+/* Etiquetas para entradas marcadas */
+input:checked + label {
+  color: red;
+}
+
+/* Elemento Radio, cuando está marcado */
+input[type="radio"]:checked {
+  box-shadow: 0 0 0 3px rgb(255, 255, 255);
+}
+
+/* Elemento Checkbox, cuando está marcado */
+input[type="checkbox"]:checked {
+  box-shadow: 0 0 0 3px rgb(255, 255, 255);
+}
+
+/* Elementos Option, cuando se seleccionan */
+option:checked {
+  box-shadow: 0 0 0 3px lime;
+  color: red;
+}
+/* Default */
+input:default {
+    box-shadow: 0 0 2px 1px rgb(223, 117, 85);
+  }
+  
+  input:default + label {
+    color: rgb(173, 255, 80);
+  }
+/* :Dir() */
+/* Los colores backgraund-color = no modifica)
+
+/*:disabled*/
+input[type="text"]:disabled {
+    background: #ccc;
+  }
+/*:empty*/
+.box {
+    background: rgb(106, 216, 84);
+    height: 80px;
+    width: 80px;
+  }
+  
+  .box:empty {
+    background: rgb(2, 192, 240);
+  }
+/*:enabled*/
+input:enabled {
+    color: #2b2;
+  }
+  
+  input:disabled {
+    color: #aaa;
+  }
+/*:first*/
+@page :first {
+    margin-left: 50%;
+    margin-top: 50%;
+  }
+  
+  p {
+    page-break-after: always;
+  }
+/*:first-child*/
+p:first-child {
+    color: lime;
+    background-color: black;
+    padding: 5px;
+  }
+/*:first-of-typ*/
+article :first-of-type {
+    background-color: rgb(228, 121, 139);
+  }
+/*:fullscreen*/
+#fullscreen:fullscreen {
+    padding: 42px;
+    background-color: pink;
+    border:2px solid #f00;
+    font-size: 200%;
+  }
+  
+  #fullscreen:fullscreen > h1 {
+    color: red;
+  }
+  
+  #fullscreen:fullscreen > p {
+    color: darkred;
+  }
+  
+  #fullscreen:fullscreen > button {
+    display: none;
+  }
+/*:focus*/
+  .red-input:focus {
+    background: yellow;
+    color: rgb(4, 90, 160);
+  }
+  
+  .blue-input:focus {
+    background: yellow;
+    color: rgb(252, 27, 166);
+  }
+  /*:indeterminate*/
+  input:indeterminate + label {
+    background: lime;
+  }
+  /*:in-range*/
+  li {
+    list-style: none;
+    margin-bottom: 1em;
+  }
+  
+  input {
+    border: 1px solid black;
+  }
+  
+  input:in-range {
+    background-color: rgba(0, 255, 0, 0.25);
+  }
+  
+  input:out-of-range {
+    background-color: rgba(255, 0, 0, 0.25);
+    border: 2px solid red;
+  }
+  
+  input:in-range + label::after {
+    content: 'bien.';
+  }
+  
+  input:out-of-range + label::after {
+    content: 'fuera de rango!';
+  }
+  /*:invalid*/
+  input:invalid {
+    background-color: #ee8989;
+  }
+  input:valid {
+    background-color: #ddffdd;
+  }  
+  input:required {
+    border-color: #800000;
+    border-width: 3px;
+  }
+  
+  input:required:invalid {
+    border-color: #C00000;
+  }
+  /*:lang*/
+  :lang(en) > q { quotes: '\201C' '\201D' '\2018' '\2019'; }
+  :lang(fr) > q { quotes: '« ' ' »'; }
+  :lang(de) > q { quotes: '»' '«' '\2039' '\203A'; }
+
+  p1:last-child {
+    color: lime;
+    background-color: black;
+    padding: 5px;
+  }
+  /*:last-of-type*/
+  article1 :last-of-type {
+    background-color: pink;
+  }
+  /*:not()*/
+
+  .fancy {
+    text-shadow: 2px 2px 3px gold;
+  }
+  
+  /* elementos <p> que no están en la clase `.fancy` */
+  .fancy1:not(.fancy) {
+    color: green;
+  }
+  /*:nth-chil*/
+
+  /*:nth-last-child*/
+  table {
+    border: 1px solid blue;
+  }
+  
+  /* Selecciona los últimos tres elementos */
+  tr:nth-last-child(-n+3) {
+    background-color: pink;
+  }
+  
+  /* Toma todos los elementos a partir del penúltimo elemento */
+  tr:nth-last-child(n+2) {
+    color: blue;
+  }
+  
+  /* Seleccione solo el penúltimo elemento */
+  tr:nth-last-child(2) {
+    font-weight: 600;
+  }
+  /*:nth-last-of-type()*/
+  span:nth-last-of-type(2) {
+    background-color: lime;
+  }
+  /*:nth-of-type*/
+  /* Párrafos impares */
+ .pp:nth-of-type(2n+1) {
+  color: red;
+}
+
+/* Párrafos pares */
+ .pp:nth-of-type(2n) {
+  color: blue;
+}
+
+/* Primer párrafo */
+ .pp:nth-of-type(1) {
+  font-weight: bold;
+}
+/*:only-child*/
+main :only-child {
+  color: rgb(255, 253, 253);
+}
+/*:only-of-type*/
+.main1 :only-of-type {
+  color: rgb(248, 247, 247);
+}
+/*:out-of-range*/
+li {
+  list-style: none;
+  margin-bottom: 1em;
+}
+
+input {
+  border: 1px solid black;
+}
+
+input:in-range {
+  background-color: rgba(0, 255, 0, 0.25);
+}
+
+input:out-of-range {
+  background-color: rgba(255, 0, 0, 0.25);
+  border: 2px solid red;
+}
+
+input:in-range + label::after {
+  content: 'bien.';
+}
+
+input:out-of-range + label::after {
+  content: '¡fuera de rango!';
+}
+/*:read-only*/
+.esteinput { min-width: 25em; }
+.esteinput:-moz-read-only { background: cyan; }
+.esteinput:read-only { background: cyan; }
+
+.peste:-moz-read-only { background: lightgray; }
+.peste:read-only { background: lightgray; }
+.peste[contenteditable="true"] { color: blue; }
+/*:read-write*/
+.esteinput1 { min-width: 25em; }
+.esteinput1:-moz-read-write { background: cyan; }
+.esteinput1:read-write { background: cyan; }
+
+.peste1:-moz-read-write { background: lightgray; }
+.peste1:read-write { background: lightgray; }
+.peste1[contenteditable="true"] { color: blue; }
+/*:target*/
+p:target {
+  background-color: gold;
+}
+
+/* Agrega un pseudo-elemento dentro del elemento de destino */
+p:target::before {
+  font: 70% sans-serif;
+  content: "►";
+  color: limegreen;
+  margin-right: .25em;
+}
+
+/* Estilo de elementos en cursiva dentro del elemento de destino */
+p:target i {
+  color: red;
+}
+/*:visited*/
+.aeste {
+  /* Especifique los valores predeterminados no transparentes a ciertas propiedades,
+     lo que les permite ser diseñado con el estado :visited */
+  background-color: white;
+  border: 1px solid white;
+}
+
+.aeste:visited {
+  background-color: yellow;
+  border-color: hotpink;
+  color: hotpink;
+}
+
+  
+  
+
+  
